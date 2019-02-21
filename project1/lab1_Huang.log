@@ -1,0 +1,412 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  23 OCT 2018 23:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**lab1_Huang.tex
+(./lab1_Huang.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+\c@subfigure=\count89
+\c@subtable=\count90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+) (./lab1_Huang.aux)
+\openout1 = `lab1_Huang.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen112
+\scratchbox=\box26
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen113
+\MPnumerator=\count95
+\makeMPintoPDFobject=\count96
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--39
+
+ []
+
+<mlp_initialization_accuracy.png, id=1, 462.528pt x 346.896pt>
+File: mlp_initialization_accuracy.png Graphic file (type png)
+
+<use mlp_initialization_accuracy.png>
+Package pdftex.def Info: mlp_initialization_accuracy.png used on input line 53.
+
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<local_initialization_accuracy.png, id=12, 462.528pt x 346.896pt>
+File: local_initialization_accuracy.png Graphic file (type png)
+
+<use local_initialization_accuracy.png>
+Package pdftex.def Info: local_initialization_accuracy.png used on input line 6
+7.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+Overfull \hbox (4.61443pt too wide) in paragraph at lines 57--70
+\OT1/cmr/m/it/12 mal(mean=0.0, std-dev=0.1)\OT1/cmr/m/n/12 , the bi-ases are in
+i-tial-ized as \OT1/cmr/m/it/12 Con-stant(value=0.5)\OT1/cmr/m/n/12 . 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<cnn_initialization_accuracy.png, id=13, 462.528pt x 346.896pt>
+File: cnn_initialization_accuracy.png Graphic file (type png)
+
+<use cnn_initialization_accuracy.png>
+Package pdftex.def Info: cnn_initialization_accuracy.png used on input line 81.
+
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [2 <./mlp_initialization_accuracy.png>]
+<mlp_stepsize_accuracy.png, id=19, 462.528pt x 346.896pt>
+File: mlp_stepsize_accuracy.png Graphic file (type png)
+
+<use mlp_stepsize_accuracy.png>
+Package pdftex.def Info: mlp_stepsize_accuracy.png used on input line 93.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+Overfull \hbox (49.31795pt too wide) in paragraph at lines 86--96
+\OT1/cmr/m/n/12 (1) Fully con-nected NN (MLP): To test the pa-ram-e-ter choice,
+ 3 \OT1/cmr/m/it/12 lr \OT1/cmr/m/n/12 of $[0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 
+25\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 01\OML/
+cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 00001]$
+ []
+
+[3 <./local_initialization_accuracy.png> <./cnn_initialization_accuracy.png>]
+<local_stepsize_accuracy.png, id=25, 462.528pt x 346.896pt>
+File: local_stepsize_accuracy.png Graphic file (type png)
+
+<use local_stepsize_accuracy.png>
+Package pdftex.def Info: local_stepsize_accuracy.png used on input line 104.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<cnn_stepsize_accuracy.png, id=26, 462.528pt x 346.896pt>
+File: cnn_stepsize_accuracy.png Graphic file (type png)
+
+<use cnn_stepsize_accuracy.png>
+Package pdftex.def Info: cnn_stepsize_accuracy.png used on input line 115.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<mlp_batch_size_accuracy.png, id=27, 462.528pt x 346.896pt>
+File: mlp_batch_size_accuracy.png Graphic file (type png)
+
+<use mlp_batch_size_accuracy.png>
+Package pdftex.def Info: mlp_batch_size_accuracy.png used on input line 134.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [4 <./mlp_stepsize_accuracy.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./local_stepsize_accuracy.png>]
+<local_batch_size_accuracy.png, id=36, 462.528pt x 346.896pt>
+File: local_batch_size_accuracy.png Graphic file (type png)
+
+<use local_batch_size_accuracy.png>
+Package pdftex.def Info: local_batch_size_accuracy.png used on input line 145.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./cnn_stepsize_accuracy.png>]
+<cnn_batch_size_accuracy.png, id=41, 462.528pt x 346.896pt>
+File: cnn_batch_size_accuracy.png Graphic file (type png)
+
+<use cnn_batch_size_accuracy.png>
+Package pdftex.def Info: cnn_batch_size_accuracy.png used on input line 156.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./mlp_batch_size_accuracy.png>]
+<mlp_momentum_accuracy.png, id=47, 462.528pt x 346.896pt>
+File: mlp_momentum_accuracy.png Graphic file (type png)
+
+<use mlp_momentum_accuracy.png>
+Package pdftex.def Info: mlp_momentum_accuracy.png used on input line 167.
+(pdftex.def)             Requested size: 124.80286pt x 93.59964pt.
+
+<local_momentum_accuracy.png, id=48, 462.528pt x 346.896pt>
+File: local_momentum_accuracy.png Graphic file (type png)
+
+<use local_momentum_accuracy.png>
+Package pdftex.def Info: local_momentum_accuracy.png used on input line 171.
+(pdftex.def)             Requested size: 124.80286pt x 93.59964pt.
+
+<cnn_momentum_accuracy.png, id=49, 462.528pt x 346.896pt>
+File: cnn_momentum_accuracy.png Graphic file (type png)
+
+<use cnn_momentum_accuracy.png>
+Package pdftex.def Info: cnn_momentum_accuracy.png used on input line 175.
+(pdftex.def)             Requested size: 124.80286pt x 93.59964pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--192
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.208 ....847 & 0.845 & 0.854 & 0.845 & \bm{0.856}
+                                                   \\
+? 
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.209         \hline
+                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.209         \hline
+                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.209         \hline
+                    
+? 
+[8 <./local_batch_size_accuracy.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<mlp_dropout_accuracy.png, id=54, 462.528pt x 346.896pt>
+File: mlp_dropout_accuracy.png Graphic file (type png)
+
+<use mlp_dropout_accuracy.png>
+Package pdftex.def Info: mlp_dropout_accuracy.png used on input line 226.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [9 <./cnn_batch_size_accuracy.png> <./mlp_momentum_accuracy.png> <./local_mome
+ntum_accuracy.png> <./cnn_momentum_accuracy.png>] [10 <./mlp_dropout_accuracy.p
+ng>]
+<local_dropout_accuracy.png, id=68, 462.528pt x 346.896pt>
+File: local_dropout_accuracy.png Graphic file (type png)
+
+<use local_dropout_accuracy.png>
+Package pdftex.def Info: local_dropout_accuracy.png used on input line 239.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+Overfull \hbox (1.86343pt too wide) in paragraph at lines 231--242
+[]\OT1/cmr/m/n/12 (2) Lo-cally con-nected NN: To test the pa-ram-e-ter choice, 
+2 \OT1/cmr/m/it/12 dropouts \OT1/cmr/m/n/12 of $[0\OML/cmm/m/it/12 :\OT1/cmr/m/
+n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 6]$
+
+ []
+
+[11 <./local_dropout_accuracy.png>]
+<cnn_dropout_accuracy.png, id=73, 462.528pt x 346.896pt>
+File: cnn_dropout_accuracy.png Graphic file (type png)
+
+<use cnn_dropout_accuracy.png>
+Package pdftex.def Info: cnn_dropout_accuracy.png used on input line 253.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [12 <./cnn_dropout_accuracy.png>]
+<mlp_regularization_accuracy.png, id=78, 462.528pt x 346.896pt>
+File: mlp_regularization_accuracy.png Graphic file (type png)
+
+<use mlp_regularization_accuracy.png>
+Package pdftex.def Info: mlp_regularization_accuracy.png used on input line 271
+.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [13 <./mlp_regularization_accuracy.png>]
+<local_regularization_accuracy.png, id=84, 462.528pt x 346.896pt>
+File: local_regularization_accuracy.png Graphic file (type png)
+
+<use local_regularization_accuracy.png>
+Package pdftex.def Info: local_regularization_accuracy.png used on input line 2
+86.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [14 <./local_regularization_accuracy.png>] <cnn_regularization_accuracy.png, i
+d=89, 462.528pt x 346.896pt>
+File: cnn_regularization_accuracy.png Graphic file (type png)
+
+<use cnn_regularization_accuracy.png>
+Package pdftex.def Info: cnn_regularization_accuracy.png used on input line 299
+.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [15 <./cnn_regularization_accuracy.png>]
+(./lab1_Huang.aux) ) 
+Here is how much of TeX's memory you used:
+ 2793 strings out of 494953
+ 45228 string characters out of 6180976
+ 99817 words of memory out of 5000000
+ 6049 multiletter control sequences out of 15000+600000
+ 11302 words of font info for 39 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,10n,40p,281b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on lab1_Huang.pdf (15 pages, 724534 bytes).
+PDF statistics:
+ 118 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

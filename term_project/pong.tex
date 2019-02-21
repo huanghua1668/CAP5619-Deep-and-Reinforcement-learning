@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{10pt} % block paragraphs
+\usepackage{algorithmicx}
+\usepackage[T1]{fontenc}
+\usepackage{algpseudocode}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{bm}
+
+\algdef{SE}[DOWHILE]{Do}{doWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}%
+
+\begin{document}
+
+\title*{\centerline{\huge{Pong control problem using SARSA algorithm}}}
+\author*{\centerline{Hua Huang}}%unnumbered centered head
+
+\section{Why playing Pong is more difficult than we thought?}
+When we think about playing Pong, we may consider it as something
+easy if not trivial, we just need to bounce back the ball. The expert human performance
+on Pong \cite{13atari} is -5 (while interestingly in Nature paper \cite{15atari}, 
+it's giving as 9.3). Human performance is the average reward achieved from around 20
+episodes of each game lasting a maximum of 5 min each, following around 2 h of practice
+playing\cite{15atari}.\\
+Based on the Gym package and the Pong\--V1 environment, and design the
+features as cosine series with highest order of 3, so far the agent
+can only achieve an average result of -13. Why does the agent fail 8
+episodes out of 29 episodes? By inspecting frame by frame, we can
+speculate that the stochastic dynamics of the environment may be one of the
+biggest reasons.
+
+A clip of the action and the following position difference of paddle of agent 
+are listed in the figure 1. u stands for action up, and d stands for
+action down. When the position difference is negative, means the
+paddle moves up, and when the position difference is positive, means
+the paddle moves down. In the figure, we can see that same action up
+will have a large set of possible consequences, the paddle can move
+\{-11, -10, -9, -4, -3, -1, 2\}, similarly, for action down, the paddle
+can move \{-5, -2, 4, 6, 7, 10, 11, 12\}. For reference, the height of ball
+is only 2.\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{agent_paddle_action_dy.png}
+\caption{action and its consequence}
+\end{figure}
+
+Why same action has so many different consequences? One of the reasons
+is the complex system, the simulator is designed to be highly
+unlinear. This is the reason why the deepmind keep record of four
+consecutive frames to form the state, namely to take care of the
+partial observability, we need to keep 4 consecutive frames to fully
+observe the trajectories. 4 frames will impose a big challenge for
+shallow learning, the dimension is very high. Another reason is the 
+handling of the frames. In environement Pong\--V1, the same action is 
+uniformly sampled from set \{2,3,4\}, namely same action is reapetedly 
+carried out 2\--4 times. To make the learning a bit little easier,
+environment is hereafter changed to PongDeterministic\--V0, in which action is
+repeated 4 times. This environment is also adopted in deepmind's
+paper, so for comparison reason, it's also valid to make this change.
+
+
+\section{A summary of current try}
+Since the bar is already high (the deep RL can acheieve a score as
+high as 19), before we try feature selection, it's necessary to
+enhance the performance of the current try, and after that, we can
+adopt feature selection to accelerate the trainning. 
+
+By inspecting the magnitude of the weights, we can speculate that the agent
+paddle does not have a high\--order effect, so it might not degrade
+the performance if we only maintain low\--order for agent paddle. To
+test this idea, a new state is designed, $s=[dx_{ball}, dy_{ball}, x_{ball},
+y_{ball}, y_{agent}]$, since we only have dimension 5, order of 10 is
+tried here. The total feature amount is 320k. The increase of order
+boost the performance significantly, the current average score is
+-2.2. By inspecting the weights, high\--order features involving ball
+actions have large\--magnitude weights. To further test this idea,
+order of 7 is tested, and the best performance so far is only -9.62. 
+Again, we can see the ball movement indeed has a high\--order effect.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{learning_curve_order_effect.png}
+\caption{order effect on learning}
+\end{figure}
+
+\begin{thebibliography}{9}
+    \bibitem{13atari}
+        Volodymyr Mnih et al.,\textit{Playing Atari Using Deep
+        Inforcement Learning},  arXiv:1312.5602.
+
+    \bibitem{15atari}
+                Mnih, V. et al. \textit{Human-level control through
+                deep reinforcement learning}.Nature 518, 529-533 (2015).
+\end{thebibliography}
+
+\end{document}
